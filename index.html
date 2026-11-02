@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#100f0e">
     <meta name="description" content="Privacy Policy for Reverse Voice Party Game.">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Privacy Policy — Reverse Voice Party Game">
+    <meta property="og:description" content="How Reverse Voice Party Game handles information and permissions during play.">
+    <meta name="twitter:card" content="summary">
     <title>Privacy Policy — Reverse Voice Party Game</title>
     <style>
         :root {
@@ -44,6 +48,12 @@
         a {
             color: var(--accent);
             text-underline-offset: 4px
+        }
+
+        a:focus-visible,
+        button:focus-visible {
+            outline: 3px solid var(--accent-soft);
+            outline-offset: 3px
         }
 
         .wrap {
@@ -228,6 +238,12 @@
                 grid-column: 1/-1
             }
         }
+
+        @media(max-width:480px) {
+            nav {
+                grid-template-columns: 1fr
+            }
+        }
     </style>
 </head>
 
@@ -237,8 +253,11 @@
         <h1 id="page-title">Privacy Policy</h1>
         <p class="subtitle" id="subtitle">How Reverse Voice Party Game handles information and permissions during play.
         </p>
-        <div class="meta"><span id="meta-app">App: Reverse Voice Party Game</span></div>
-        <div class="language-switch" aria-label="Language">
+        <div class="meta">
+            <span id="meta-app">App: Reverse Voice Party Game</span>
+            <span id="meta-updated">Last updated: 2 November 2026</span>
+        </div>
+        <div class="language-switch" role="group" aria-label="Language">
             <button type="button" data-language="en" aria-pressed="true">EN</button>
             <button type="button" data-language="pt" aria-pressed="false">PT</button>
         </div>
@@ -257,7 +276,7 @@
         <article>
             <section id="responsavel">
                 <h2>1. Who is responsible</h2>
-                <p> DMS Game Studios, is responsible for personal data processed in connection with the app.</p>
+                <p>DMS Game Studios is responsible for personal data processed in connection with the app.</p>
                 <p>This policy applies to Reverse Voice Party Game and explains what information may be processed when
                     you use it.</p>
             </section>
@@ -307,7 +326,7 @@
                 <h2>7. Contact</h2>
                 <p>For privacy questions or requests about your data, contact the controller:</p>
                 <p><strong>DMS Game Studios</strong><br><a
-                        href="mailto:dmsgamestudios@gmail.com">dmsgamestudios@gmail.com</a></p>
+                        href="mailto:dmsstudioscontact@gmail.com">dmsstudioscontact@gmail.com</a></p>
                 <p>This policy may be updated when the app or its data practices change. The revision date will be shown
                     at the top of this page.</p>
             </section>
@@ -319,29 +338,29 @@
     <script>
         const translations = {
             en: {
-                eyebrow: 'DMS Game Studios · Privacy', title: 'Privacy Policy', subtitle: 'How Reverse Voice Party Game handles information and permissions during play.', description: 'Privacy Policy for Reverse Voice Party Game.', meta: 'App: Reverse Voice Party Game',
+                eyebrow: 'DMS Game Studios · Privacy', title: 'Privacy Policy', subtitle: 'How Reverse Voice Party Game handles information and permissions during play.', description: 'Privacy Policy for Reverse Voice Party Game.', meta: 'App: Reverse Voice Party Game', updated: 'Last updated: 2 November 2026',
                 navLabel: 'On this page', navTitle: 'On this page', nav: ['Controller', 'Data we process', 'Microphone and audio', 'How we use data', 'Sharing, ads and retention', 'Your rights', 'Contact'],
                 sections: [
-                    '<h2>1. Who is responsible</h2><p>DMS Game Studios, is responsible for personal data processed in connection with the app.</p><p>This policy applies to Reverse Voice Party Game and explains what information may be processed when you use it.</p>',
+                    '<h2>1. Who is responsible</h2><p>DMS Game Studios is responsible for personal data processed in connection with the app.</p><p>This policy applies to Reverse Voice Party Game and explains what information may be processed when you use it.</p>',
                     '<h2>2. Data we process</h2><p>Reverse Voice Party Game does not require an account. Player names and scores are kept for the current game session and are not sent to a game server. Your language, theme, sound and vibration settings, and content unlocked through rewarded ads are stored locally on your device.</p>',
                     '<h2>3. Microphone and audio</h2><p>When you choose to record and grant microphone permission, the app records the phrase for the game. You can manage or revoke microphone permission in your device settings; recording features will not work without it.</p><p>The recording is processed on the device to create reversed audio. The original and reversed clips are temporary files in the app\'s private storage. The game does not send audio clips to DMS Game Studios or to a game server.</p>',
                     '<h2>4. How we use data</h2><p>Recordings are used only for the voice gameplay features. The game does not use them for advertising or profiling. Google Mobile Ads is used separately to request and display banner, interstitial, and rewarded advertisements.</p>',
                     '<h2>5. Sharing, ads and retention</h2><p>The original recording is deleted after the reversed clip is created. Reversed clips are deleted at the end of a round or playground session, or when you leave that screen. If the app is stopped unexpectedly, a temporary file may remain in the device\'s temporary app storage until it is removed by the system. Saved settings and unlocks remain on your device until changed or the app is removed.</p><p>The app integrates Google Mobile Ads to serve ads. Depending on the device, region, consent choices and configuration, the SDK may collect and share IP address, device or advertising identifiers, diagnostic information and ad interactions for advertising, analytics and fraud prevention. See Google\'s <a href="https://developers.google.com/admob/android/privacy/play-data-disclosure">Android</a> and <a href="https://developers.google.com/admob/ios/privacy/data-disclosure">iOS</a> SDK data disclosures and the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p><p>Where required, Google\'s User Messaging Platform presents consent or privacy choices. When the app makes the option available, you can revisit them in Settings → Manage ad privacy choices.</p>',
                     '<h2>6. Your rights</h2><p>Depending on applicable law, you may have the right to access, correct, erase, restrict, port, or object to the processing of your personal data. To exercise these rights, contact us using the details below.</p>',
-                    '<h2>7. Contact</h2><p>For privacy questions or requests about your data, contact the controller:</p><p><strong>DMS Game Studios</strong><br><a href="mailto:dmsgamestudios@gmail.com">dmsgamestudios@gmail.com</a></p><p>This policy may be updated when the app or its data practices change. The revision date will be shown at the top of this page.</p>'
+                    '<h2>7. Contact</h2><p>For privacy questions or requests about your data, contact the controller:</p><p><strong>DMS Game Studios</strong><br><a href="mailto:dmsstudioscontact@gmail.com">dmsstudioscontact@gmail.com</a></p><p>This policy may be updated when the app or its data practices change. The revision date will be shown at the top of this page.</p>'
                 ], footer: '2026 DMS Game Studios · Reverse Voice Party Game'
             },
             pt: {
-                eyebrow: 'DMS Game Studios · Privacidade', title: 'Política de Privacidade', subtitle: 'Como o Reverse Voice Party Game trata informações e permissões durante o jogo.', description: 'Política de Privacidade do Reverse Voice Party Game.', meta: 'Aplicação: Reverse Voice Party Game',
+                eyebrow: 'DMS Game Studios · Privacidade', title: 'Política de Privacidade', subtitle: 'Como o Reverse Voice Party Game trata informações e permissões durante o jogo.', description: 'Política de Privacidade do Reverse Voice Party Game.', meta: 'Aplicação: Reverse Voice Party Game', updated: 'Última atualização: 2 de novembro de 2026',
                 navLabel: 'Nesta página', navTitle: 'Nesta página', nav: ['Responsável', 'Dados tratados', 'Microfone e áudio', 'Utilização dos dados', 'Partilha, anúncios e conservação', 'Os teus direitos', 'Contacto'],
                 sections: [
-                    '<h2>1. Quem é responsável</h2><p>DMS Game Studios, é responsável pelos dados pessoais tratados no âmbito da aplicação.</p><p>Esta política aplica-se ao Reverse Voice Party Game e explica que informações podem ser tratadas quando a utilizas.</p>',
+                    '<h2>1. Quem é responsável</h2><p>DMS Game Studios é responsável pelos dados pessoais tratados no âmbito da aplicação.</p><p>Esta política aplica-se ao Reverse Voice Party Game e explica que informações podem ser tratadas quando a utilizas.</p>',
                     '<h2>2. Dados tratados</h2><p>O Reverse Voice Party Game não exige uma conta. Os nomes dos jogadores e as pontuações ficam na sessão de jogo atual e não são enviados para um servidor de jogo. O idioma, o tema, as definições de som e vibração e os conteúdos desbloqueados através de anúncios premiados são guardados localmente no dispositivo.</p>',
                     '<h2>3. Microfone e áudio</h2><p>Quando escolhes gravar e autorizas o uso do microfone, a app grava a frase para o jogo. Podes gerir ou retirar a autorização do microfone nas definições do dispositivo; as funcionalidades de gravação deixam de funcionar sem essa autorização.</p><p>A gravação é processada no dispositivo para criar o áudio invertido. As gravações original e invertida são ficheiros temporários no armazenamento privado da app. O jogo não envia os clips de áudio para a DMS Game Studios nem para um servidor de jogo.</p>',
                     '<h2>4. Utilização dos dados</h2><p>As gravações são usadas apenas nas funcionalidades de jogo por voz. O jogo não as usa para publicidade nem para criar perfis. O Google Mobile Ads é usado separadamente para pedir e apresentar anúncios de faixa, intersticiais e premiados.</p>',
                     '<h2>5. Partilha, anúncios e conservação</h2><p>A gravação original é apagada depois de criado o clip invertido. Os clips invertidos são apagados no fim da ronda ou da sessão de treino, ou quando sais desse ecrã. Se a app for encerrada inesperadamente, um ficheiro temporário poderá permanecer no armazenamento temporário da app até ser removido pelo sistema. As definições e os desbloqueios guardados permanecem no dispositivo até serem alterados ou a app ser removida.</p><p>A app integra o Google Mobile Ads para apresentar anúncios. Dependendo do dispositivo, região, escolhas de consentimento e configuração, o SDK poderá recolher e partilhar o endereço IP, identificadores do dispositivo ou de publicidade, informação de diagnóstico e interações com anúncios para publicidade, analytics e prevenção de fraude. Consulta as divulgações de dados do SDK para <a href="https://developers.google.com/admob/android/privacy/play-data-disclosure">Android</a> e <a href="https://developers.google.com/admob/ios/privacy/data-disclosure">iOS</a>, bem como a <a href="https://policies.google.com/privacy">Política de Privacidade da Google</a>.</p><p>Quando exigido, a plataforma User Messaging Platform da Google apresenta opções de consentimento ou privacidade. Quando a app disponibiliza essa opção, podes revê-las em Definições → Gerir privacidade dos anúncios.</p>',
                     '<h2>6. Os teus direitos</h2><p>Consoante a legislação aplicável, poderás ter direitos de acesso, retificação, apagamento, limitação, portabilidade ou oposição ao tratamento dos teus dados pessoais. Para exercer estes direitos, contacta-nos através dos dados abaixo.</p>',
-                    '<h2>7. Contacto</h2><p>Para questões de privacidade ou pedidos relativos aos teus dados, contacta o responsável:</p><p><strong>DMS Game Studios</strong><br><a href="mailto:dmsgamestudios@gmail.com">dmsgamestudios@gmail.com</a></p><p>Esta política poderá ser atualizada quando a app ou as práticas de tratamento de dados mudarem. A data da atualização será indicada no início desta página.</p>'
+                    '<h2>7. Contacto</h2><p>Para questões de privacidade ou pedidos relativos aos teus dados, contacta o responsável:</p><p><strong>DMS Game Studios</strong><br><a href="mailto:dmsstudioscontact@gmail.com">dmsstudioscontact@gmail.com</a></p><p>Esta política poderá ser atualizada quando a app ou as práticas de tratamento de dados mudarem. A data da atualização será indicada no início desta página.</p>'
                 ], footer: '2026 DMS Game Studios · Reverse Voice Party Game'
             }
         };
@@ -351,19 +370,35 @@
             document.documentElement.lang = language === 'pt' ? 'pt-PT' : 'en';
             document.title = `${t.title} — Reverse Voice Party Game`;
             document.querySelector('meta[name="description"]').content = t.description;
+            document.querySelector('meta[property="og:title"]').content = document.title;
+            document.querySelector('meta[property="og:description"]').content = t.subtitle;
             document.getElementById('eyebrow').textContent = t.eyebrow;
             document.getElementById('page-title').textContent = t.title;
             document.getElementById('subtitle').textContent = t.subtitle;
             document.getElementById('meta-app').textContent = t.meta;
+            document.getElementById('meta-updated').textContent = t.updated;
             document.getElementById('nav').setAttribute('aria-label', t.navLabel);
             document.getElementById('nav-title').textContent = t.navTitle;
             t.nav.forEach((label, i) => { document.getElementById(`nav-${['responsavel', 'dados', 'microfone', 'finalidades', 'partilha', 'direitos', 'contacto'][i]}`).textContent = label; });
             document.querySelectorAll('article section').forEach((section, i) => { section.innerHTML = t.sections[i]; });
             document.getElementById('footer-text').textContent = t.footer;
             document.querySelectorAll('[data-language]').forEach(button => button.setAttribute('aria-pressed', button.dataset.language === language));
+            try { localStorage.setItem('reverse-voice-policy-language', language); } catch (_) { }
+            try {
+                const url = new URL(window.location.href);
+                url.searchParams.set('lang', language);
+                window.history.replaceState(null, '', url);
+            } catch (_) { }
         }
 
         document.querySelectorAll('[data-language]').forEach(button => button.addEventListener('click', () => setLanguage(button.dataset.language)));
+        const requestedLanguage = new URLSearchParams(window.location.search).get('lang');
+        let savedLanguage = null;
+        try { savedLanguage = localStorage.getItem('reverse-voice-policy-language'); } catch (_) { }
+        const initialLanguage = ['en', 'pt'].includes(requestedLanguage) ? requestedLanguage
+            : ['en', 'pt'].includes(savedLanguage) ? savedLanguage
+            : navigator.language.toLowerCase().startsWith('pt') ? 'pt' : 'en';
+        setLanguage(initialLanguage);
     </script>
 </body>
 
